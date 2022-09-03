@@ -39,10 +39,11 @@ Task Notion doc:
 [https://tangible-coach-7d5.notion.site/TodoMVC-facefd292d714ed4838e57b155b2dfa1](https://tangible-coach-7d5.notion.site/TodoMVC-facefd292d714ed4838e57b155b2dfa1)
 
 ### Excution: 
-https://github.com/Tabaaza/todomvc-wdio-FV/raw/main/github_Media/Run.mov
+![Running the test locally](https://github.com/Tabaaza/todomvc-wdio-FV/raw/main/github_Media/Run.mov)
 
 Report: 
-https://github.com/Tabaaza/todomvc-wdio-FV/raw/main/github_Media/Report.png
+
+![Report](https://github.com/Tabaaza/todomvc-wdio-FV/raw/main/github_Media/Report.png)
 ---
 ### Authors
 Omar Tabaza 
