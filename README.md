@@ -1,7 +1,7 @@
+# FirstVet Automation Challenge 🚀 
+
 # todomvc-wdio-FV
 E2E automated test for todomvc using #WDIO
-
-FirstVet Automation Challenge
 
 ## This project is built with:!
 - WebdriverIO
