@@ -17,7 +17,7 @@ describe('Create My Todo list', () => {
         expect(todo.itemsCount).toHaveText('4');
     });
 
-    it('Should delete todo', async () =>{
+    it('Should delete Todo', async () =>{
         todo.setPosition(2); // Delete todo number 3 (can be better than that 🐶)
         console.log(todo.deleteTodo);
         currentItemsCount = await todo.itemsCount.getText(); // to make sure that we actully delete one.
@@ -25,17 +25,17 @@ describe('Create My Todo list', () => {
         expect(todo.itemsCount).toHaveText((Number(currentItemsCount) - 1).toString());
     });
 
-    it('Should mark todo as Complete', async () => {
+    it('Should mark Todo as complete', async () => {
         todo.setPosition(1);
         await todo.markItemAsComplete.click();
     });
 
-    it('Should find todo in Copmlete tab', async () => {
+    it('Should find Todo in complete tab', async () => {
         await todo.completedTab.click()
         expect(todo.firstTaskStatic).toExist()
     });
     
-    it('Should not find the completed todo in Active tab', async () =>{
+    it('Should not find the completed Todo in Active tab', async () =>{
         await todo.completedTab.click();
         elmCom = await todo.firstTask.getText();
         await todo.activeTab.click();
@@ -52,7 +52,7 @@ describe('Create My Todo list', () => {
 
     });
 
-    it('Should Clear all Completed Items and back empty stat', async () =>{
+    it('Should Clear all completed Items and back empty stat', async () =>{
         await todo.clearCompleted.click();
         elm = await todo.todoList.isExisting() // return fales if not exist 
         expect(!elm)
