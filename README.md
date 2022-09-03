@@ -35,6 +35,8 @@ npm run test
 7. As User, Should Mark all as complete
 8. As User, Should Clear all Completed Items and back empty stat
 
+Task Notion doc: 
+[https://tangible-coach-7d5.notion.site/TodoMVC-facefd292d714ed4838e57b155b2dfa1](https://tangible-coach-7d5.notion.site/TodoMVC-facefd292d714ed4838e57b155b2dfa1)
 
 ---
 ### Authors
